@@ -15,7 +15,7 @@ if(isset($obj['op']))
 	switch($obj['op'])
 	{
 		/* PRODUCTS */
-			
+			/* ciao */
 		case 'getproductbyreference' : echo json_encode($psh->getProductByReference($obj['data']['reference'], true)); break;
 		case 'getproductbyid' : echo json_encode($psh->getProductById($obj['data']['id'], true)); break;
 		case 'addproduct' : echo json_encode($psh->addProduct($obj['data'])); break;
